@@ -1,0 +1,23 @@
+{
+  "capabilities": [
+    {
+      "devicesName": "huawei",
+      "platformName": "ANDROID",
+      "browserName": "huawei",
+      "maxInstances": 1
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 10800,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://127.0.0.1:5001/wd/hub",
+    "host": "127.0.0.1",
+    "port": 5001,
+    "maxSession": 1,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1"
+  }
+}
